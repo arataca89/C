@@ -1,0 +1,105 @@
+/* octal.c 
+exercicio: programa que converte numero binario em octal
+arataca89@gmail.com
+*/
+
+#include <stdio.h>
+#include <math.h>
+
+int main(){
+    /* 1. Crie um vetor de 12 posições e armazene o número binário: binario[12] */
+    
+    /* TESTES */
+    /* double binario[12] = {1,0,1,0,1,0,1,0,1,0,1,0}; */
+	  /* double binario[12] = {1,1,1,1,1,1,1,1,1,1,1,1}; */
+	  /* double binario[12] = {1,1,1,1,0,0,0,0,1,1,1,1}; */
+	  /* double binario[12] = {0,0,0,0,1,1,1,1,0,0,0,0}; */
+	  double binario[12] = {1,1,0,0,1,1,0,0,1,1,0,0};
+
+	  /* 2. Crie uma variável contador para monitorar o índice do vetor binário: n */
+    int n;
+    
+	  /* 3. Crie um vetor de 4 posições para armazenar o número octal: octal[4] */
+	  double octal[4] = {0,0,0,0}; 
+
+    /* 4. Crie uma variável contador para monitorar a posição no vetor octal: o */
+	  int o;
+	
+	  /*5. Crie uma variável para armazenar o expoente a ser usado no cálculo: expoente */
+	  int expoente;
+	
+	  /* 6. Crie uma variável auxiliar para armazenar cada dígito do octal: nr */
+	  double nr;
+	
+	  /* 7. Crie uma variável para separar os dígitos do número binário em
+	     grupos de 3 dígitos: cont */
+	 int cont;
+	
+	 /* 8. Faça n = 12 para apontar para a última posição do vetor binario */
+	 n = 11; /* aqui é 11 porque os vetores em C iniciam em zero */
+	
+	 /* 9. Faça o = 4 para apontar para a última posição do vetor octal	*/
+	 o = 3;
+	
+	 /* 10. Faça expoente = 0 */
+	 expoente = 0;
+	
+	 /* 11. Faça nr = 0	*/
+	 nr = 0;
+	
+	 /* 12. Faça cont = 0 */
+	 cont = 0;
+	
+	 for(n = 11; n >= 0; n-- ){
+	     /* 13. Faça nr = nr + binario[n] * 2 ^ expoente
+		    * "2 ^ expoente" é a operação de potenciação: 2 elevado a expoente
+		    * aqui a potenciação foi implementada pela função pow() da linguagem C  
+		   */
+		   nr = nr + binario[n] * (double)pow(2,expoente); 
+
+		  /* 14. Faça expoente = expoente + 1 para incrementar a variável expoente de uma unidade	*/
+		  expoente = expoente + 1;
+		
+		  /* 15. Faça cont = cont + 1. Esta variável é usada para grupar os dígitos do
+		     número binário de 3 em 3 */
+		  cont = cont + 1;
+		
+		  /* 16. Se o resto da divisão cont / 3 for igual a zero então execute as acões:
+		     (o agrupamento dos dígitos do número binário de 3 em 3 é feito aqui) */
+		  if( cont % 3 == 0){
+    	    /* 16.1 Faça octal[o] = nr */
+    		  octal[o] = nr;
+
+    		  /* 16.2 Faça nr = 0 para armazenar outro cálculo */
+    		  nr = 0;
+    		
+    		  /* 16.3 Faça expoente = 0 */
+    		  expoente = 0;
+    		
+    		  /* 16.4 Faça o = o - 1 para apontar para a posição anterior no vetor octal[] */
+    		  o = o - 1;
+		  }
+		  /* 17. Faça n = n - 1 para apontar para a posição anterior no vetor binario[]
+		     aqui implementado pelo laço "for" da linguagem C */
+	 } 
+	 /* 18. Se n >= 1 volte ao passo 13
+	    aqui implementado pelo laço "for" da linguagem C
+	    observe que n = 11 e n >= 0 deve-se a que os vetores em C iniciam pelo índice zero  */
+
+    /* exibindo o resultado */
+    printf("Numero binario: ");
+    for(n = 0; n < 12; n++){
+    	printf("%.0f ",binario[n]);
+    }
+    printf("\n\n");
+    
+    printf("Numero octal: ");	
+    for(n = 0; n < 4; n++){
+    	printf("%.0f ",octal[n]);
+	}
+    printf("\n");
+    
+    return(0);		
+	
+}
+/* fim de octal.c */
