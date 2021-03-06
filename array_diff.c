@@ -1,7 +1,7 @@
 /*
 array_diff.c
 
-Exercício do CodeWars
+Exercício do CodeWars:
 
 Your goal in this kata is to implement a difference function,
 which subtracts one list from another and returns the result.
@@ -13,20 +13,6 @@ array_diff({1, 2}, 2, {1}, 1, *z) == {2} (z == 1)
 If a value is present in b, all of its occurrences must be removed from the other:
 
 array_diff({1, 2, 2, 2, 3}, 5, {2}, 1, *z) == {1, 3} (z == 2)
-
-size_t:
-
-It’s a type which is used to represent the size of objects in bytes and is therefore
-used as the return type by the sizeof operator. It is guaranteed to be big enough
-to contain the size of the biggest object the host system can handle.
-Basically the maximum permissible size is dependent on the compiler; if the compiler
-is 32 bit then it is simply a typedef(i.e., alias) for unsigned int but if the compiler
-is 64 bit then it would be a typedef for unsigned long long.
-The size_t data type is never negative.
-Therefore many C library functions like malloc, memcpy and strlen declare their
-arguments and return type as size_t.
-
-Fonte: https://www.geeksforgeeks.org/size_t-data-type-c-language/ 
 */
 
 #include <stdio.h>
