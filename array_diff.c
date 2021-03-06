@@ -1,6 +1,8 @@
 /*
 array_diff.c
 
+arataca89@gmail.com
+
 Exercício do CodeWars:
 
 Your goal in this kata is to implement a difference function,
