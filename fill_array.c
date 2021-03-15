@@ -43,7 +43,7 @@ int *fill_array(int limite, int size){
 
     buffer = buffer - size;// volta o ponteiro para o início do array
 	 	
-	return buffer;// retornan o ponteiro
+	return buffer;// retorna o ponteiro
 }
 
 
