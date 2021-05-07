@@ -36,7 +36,7 @@ int main(){
     printf("{%s, %d, %.2f}\n",l1.titulo, l1.paginas, l1.preco );
     printf("{%s, %d, %.2f}\n",l2.titulo, l2.paginas, l2.preco );
 
-    // Caso utiliza ponteiros o acesso aos membros da estrutura se dá através
+    // Caso utilize ponteiros o acesso aos membros da estrutura se dá através
     // do operador -> (seta)
     printf("{%s, %d, %.2f}\n",livroPtr->titulo, livroPtr->paginas,livroPtr->preco );
 
