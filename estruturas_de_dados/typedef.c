@@ -45,7 +45,7 @@ int main(){
     n1.power = 13.41;
 
     printf("Posicao: (%d, %d)\n",n1.x, n1.y); // Posicao: (11, 85)
-    printf("Força  : %.2f\n", n1.power); // Força  : 13.41
+    printf("Forca  : %.2f\n", n1.power); // Força  : 13.41
 
     return 0;
 }
