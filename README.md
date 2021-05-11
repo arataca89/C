@@ -1,4 +1,6 @@
 # Linguagem C
+## 20210511
+- estrutura_de_dados/stackint.c - Implementação de uma pilha estática de inteiros.
 ## 20210507
 - estrutura_de_dados/typedef.c - Demonstra o uso da palavra-chave typedef.
 - estrutura_de_dados/struct2.c - Como passar membros de estruturas ou a própria estrutura para funções.
