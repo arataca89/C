@@ -1,4 +1,6 @@
 # Linguagem C
+## 20210526
+- malloc.c - alocação dinâmica de memória, usando malloc() e free().
 ## 20210511
 - estrutura_de_dados/stackint.c - Implementação de uma pilha estática de inteiros.
 ## 20210507
