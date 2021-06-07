@@ -97,17 +97,12 @@ void printLista(Lista lista){
     node *noh =  lista.inicio;  
     printf("Imprimindo os nos da lista\n");     
     printf("--------------------------\n\n");     
-    while(noh->proximo != NULL){
+    while(noh != NULL){
         printf("endereco: %p\n", noh);
         printf("Valor   : %d\n", noh->valor);
         printf("proximo : %p\n\n", noh->proximo);
         noh = noh->proximo;        
     }
-
-    /* primeiro nó da lista; noh->proximo == NULL */
-    printf("endereco: %p\n", noh);
-    printf("Valor   : %d\n", noh->valor);
-    printf("proximo : %p\n\n", noh->proximo);
 }
 
 void freeLista(Lista lista){
