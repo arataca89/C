@@ -1,4 +1,6 @@
 # Linguagem C
+## 20210609
+- recursividade/fatorial.c - Exemplo de função fatorial interativa e recursiva.
 ## 20210606
 - estrutura_de_dados/lista1.c - Exemplo de lista encadeada simples com inserção no início.
 ## 20210526
