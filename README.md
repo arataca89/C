@@ -1,4 +1,6 @@
 # Linguagem C
+## 20210610
+- recursividade/multiplicacao.c - Exemplo de função interativa e recursiva que executa a multiplicação de dois inteiros.
 ## 20210609
 - recursividade/fatorial.c - Exemplo de função fatorial interativa e recursiva.
 ## 20210606
