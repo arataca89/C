@@ -1,6 +1,6 @@
 # Linguagem C
 ## 20210611
--estrutura_de_dados/lista2.c - Exemplo de lista encadeada simples com: inserção e remoção de itens.
+-estrutura_de_dados/lista2.c - Exemplo de lista encadeada simples com inserção e remoção de itens.
 ## 20210610
 - recursividade/multiplicacao.c - Exemplo de função interativa e recursiva que executa a multiplicação de dois inteiros.
 ## 20210609
