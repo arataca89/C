@@ -1,4 +1,6 @@
 # Linguagem C
+## 20210612
+- recursividade/fibonacci.c - Exemplo de funções interativa e recursiva que calcula a sequência de Fibonacci.
 ## 20210611
 - estrutura_de_dados/lista2.c - Exemplo de lista encadeada simples com inserção e remoção de itens. Para ver funcionando <a href="https://youtu.be/W6YaSkA2ecI">clique aqui</a>
 ## 20210610
