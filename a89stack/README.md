@@ -73,3 +73,8 @@ Este é o teste de overflow. Tenta-se inserir itens além da capacidade da pilha
 
 <hr>
 
+## teste5.c
+Este é o teste da função <tt>top()</tt>.
+<img src="https://github.com/arataca89/C/blob/main/a89stack/teste5.PNG">
+
+<hr>
