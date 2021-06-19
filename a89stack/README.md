@@ -17,7 +17,7 @@ Observe que ao usar a função <tt>push()</tt>:
 void push(Tipo n, Stack pilha)
 </pre>
 
-o membro correto da estrutura Tipo deve ser setado, exemplo:
+o membro correto da estrutura <tt>Tipo</tt> deve ser setado, exemplo:
 
 <pre>
 Tipo n1, n2, n3;
