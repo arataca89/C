@@ -3,12 +3,12 @@
 ## teste1.c
 
 Este arquivo executa o primeiro teste da bilbioteca. São testadas as funções:
-- create()
-- isVoid()
-- isFull()
-- push()
-- pop()
-- destroy()
+- <tt>create()</tt>
+- <tt>isVoid()</tt>
+- <tt>isFull()</tt>
+- <tt>push()</tt>
+- <tt>pop()</tt>
+- <tt>destroy()</tt>
 
 
 Observe que ao usar a função <tt>push()</tt>:
