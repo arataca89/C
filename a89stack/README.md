@@ -25,3 +25,5 @@ n3.i = 3;
 </pre>
 
 Isto é usado neste teste.
+
+<img src="https://photos.app.goo.gl/VLFYb8oSPBEPW6gg9">
