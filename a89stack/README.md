@@ -26,4 +26,4 @@ n3.i = 3;
 
 Isto é usado neste teste.
 
-!["https://photos.app.goo.gl/VLFYb8oSPBEPW6gg9"]
+![](https://photos.app.goo.gl/VLFYb8oSPBEPW6gg9)
