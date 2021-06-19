@@ -26,4 +26,6 @@ n3.i = 3;
 
 Isto é usado neste teste.
 
+## Saída do arquivo teste1.c após compilado em ambiente Windows 10.
+
 <img src="https://github.com/arataca89/C/blob/main/a89stack/teste1.PNG">
