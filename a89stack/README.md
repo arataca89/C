@@ -51,7 +51,7 @@ Observe que conforme o tipo a ser processado a função correta deve ser chamada
 
 <img src="https://github.com/arataca89/C/blob/main/a89stack/teste2.PNG">
 
-Observe que a saída é idêntica a do arquivo teste1.c, assim conclui-se que pode-se usar tanto a função <tt>push()</tt> como as funções: <tt>pushInt()</tt>, <tt>pushFloat()</tt. e <tt>pushChar</tt> para inserir itens na pilha após esta ser criada.
+Observe que a saída é idêntica a do arquivo teste1.c. Assim conclui-se que pode-se usar tanto a função <tt>push()</tt> como as funções: <tt>pushInt()</tt>, <tt>pushFloat()</tt> e <tt>pushChar</tt> para inserir itens na pilha após esta ser criada.
 <hr>
 
 aaa
