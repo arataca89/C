@@ -1,7 +1,7 @@
 # a89stack.h
 Esta biblioteca possui estruturas e funções que auxiliam a implementar pilhas.
 
-A biblioteca possui a estrutura <tt>tipo</tt> que define se a pilha será int, float ou char
+A biblioteca possui a estrutura <tt>tipo</tt> que define se a pilha será int, float ou char:
 
 <pre>
 typedef union tipo{
@@ -10,7 +10,9 @@ typedef union tipo{
     char c;
 }Tipo;
 </pre>
-
+<p>
+Funções da biblioteca:
+    <tt>Stack create(int n)</tt> - Cria a pilha.    
 <hr>
 
 ## teste1.c
