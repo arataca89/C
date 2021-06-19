@@ -12,7 +12,8 @@ typedef union tipo{
 </pre>
 <p>
 Funções da biblioteca:
-    <tt>Stack create(int n)</tt> - Cria a pilha.    
+<p>    
+<tt>Stack create(int n)</tt> - Cria a pilha.    
 <hr>
 
 ## teste1.c
