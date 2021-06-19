@@ -11,9 +11,9 @@ Este arquivo executa o primeiro teste da bilbioteca. São testadas as funções:
 - destroy()
 
 
-Ao usar a função push():
+Observe que ao usar a função push():
 
-void push(Tipo n, Stack pilha)
+- void push(Tipo n, Stack pilha)
 
 o membro correto da estrutura Tipo deve ser setado, exemplo:
 
