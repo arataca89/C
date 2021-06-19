@@ -17,9 +17,11 @@ Observe que ao usar a função push():
 
 o membro correto da estrutura Tipo deve ser setado, exemplo:
 
+<pre>
 Tipo n1, n2, n3;
 n1.i = 1;
 n2.i = 2;
 n3.i = 3;
+</pre>
 
 Isto é usado neste teste.
