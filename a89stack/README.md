@@ -49,5 +49,10 @@ Observe que conforme o tipo a ser processado a função correta deve ser chamada
 
 ## Saída do aruqivo teste2.c após compilado em ambiente Windows 10
 
+<img src="https://github.com/arataca89/C/blob/main/a89stack/teste2.PNG">
+
+<hr>
+
+aaa
 
 
