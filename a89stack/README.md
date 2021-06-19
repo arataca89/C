@@ -26,7 +26,7 @@ n2.i = 2;
 n3.i = 3;
 </pre>
 
-Neste caso foi setado o membro <tt>i</tt>, relativo ao tipo <tt>int</tt> pois deseja-se trabalhar com inteiros.
+Neste caso foi setado o membro <tt>i</tt>, relativo ao tipo <tt>int</tt>, pois deseja-se trabalhar com inteiros.
 Isto é usado neste teste. Ajusta-se o membro da união <tt>Tipo</tt> conforme o tipo de dado a ser processado. 
 
 ## Saída do arquivo teste1.c após compilado em ambiente Windows 10.
