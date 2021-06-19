@@ -13,7 +13,9 @@ Este arquivo executa o primeiro teste da bilbioteca. São testadas as funções:
 
 Observe que ao usar a função push():
 
-- void push(Tipo n, Stack pilha)
+<pre>
+void push(Tipo n, Stack pilha)
+</pre>
 
 o membro correto da estrutura Tipo deve ser setado, exemplo:
 
