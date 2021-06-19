@@ -45,5 +45,9 @@ pushFloat()
 pushChar()
 </pre>
 
-Observe que conforme o tipo a ser processado a função correta deve ser chamada. Lembrando que ao criar uma pilha de inteiros não devemos inserir um dado de outro tipo.
+Observe que conforme o tipo a ser processado a função correta deve ser chamada. Lembrando que ao criar uma pilha de inteiros não devemos inserir um dado de outro tipo. Isto causará resultados inesperados.
+
+## Saída do aruqivo teste2.c após compilado em ambiente Windows 10
+
+
 
