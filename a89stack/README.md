@@ -26,4 +26,4 @@ n3.i = 3;
 
 Isto é usado neste teste.
 
-<img src="https://drive.google.com/file/d/13Kx4YPvOy-7xzl-Cvhebg9qfCHBDzrDi/view?usp=sharing">
+<img src="https://github.com/arataca89/C/blob/main/a89stack/teste1.PNG">
