@@ -2,13 +2,13 @@
 
 ## teste1.c
 
-Teste das funções:
-create()
-isVoid()
-isFull()
-push()
-pop()
-destroy()
+Este arquivo executa o primeiro teste da bilbioteca. São testadas as funções:
+- create()
+- isVoid()
+- isFull()
+- push()
+- pop()
+- destroy()
 
 
 Ao usar a função push():
