@@ -23,7 +23,16 @@ typedef struct stack{
 
 Funções da biblioteca:
 <p><tt>Stack create(int n)</tt> - Cria uma pilha com capacidade de <tt>n</tt> itens.   
-<p><tt>int isVoid(Stack pilha)</tt> - Verifica se a pilha está vazia.    
+<p><tt>int isVoid(Stack pilha)</tt> - Verifica se a pilha está vazia.   
+<p><tt>int isFull(Stack pilha)</tt> - Verifica se a pilha está cheia.
+<p><tt>void push(Tipo n, Stack pilha)</tt> - Insere um <tt>Tipo</tt> na pilha.
+<p><tt>void pushInt(int n, Stack pilha)</tt> - Insere um int na pilha.
+<p><tt>void pushFloat(double n, Stack pilha)</tt> - Insere um double na pilha.
+<p><tt>void pushChar(char n, Stack pilha)</tt> - Insere um char na pilha.
+<p><tt>Tipo pop(Stack pilha)</tt> - Retira e retorna o item no topo da pilha.
+<p><tt>Tipo top(Stack pilha)</tt> - Retorna o item no topo da pilha.
+<p><tt>void destroy(Stack pilha)</tt> - Destrói a pilha.
+    
 <hr>
 
 ## teste1.c
