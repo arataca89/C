@@ -13,7 +13,7 @@ typedef union tipo{
 <p>
 Funções da biblioteca:
 <p>    
-<tt>Stack create(int n)</tt> - Cria a pilha.    
+    <tt>Stack create(int n)</tt> - Cria uma pilha com capacidade de <tt>n</tt> itens.    
 <hr>
 
 ## teste1.c
