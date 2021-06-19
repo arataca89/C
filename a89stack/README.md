@@ -10,7 +10,7 @@ typedef union tipo{
     char c;
 }Tipo;
 </pre>
-<p>
+<p><p>
 Funções da biblioteca:
 <p>    
     <tt>Stack create(int n)</tt> - Cria uma pilha com capacidade de <tt>n</tt> itens.    
