@@ -37,7 +37,7 @@ Isto é usado neste teste. Ajusta-se o membro da união <tt>Tipo</tt> conforme o
 
 ## teste2.c
 
-Além das funções testadas em teste1.c aqui testa-se também as funções:
+Além das funções usadas em teste1.c, aqui testa-se também as funções:
 
 <pre>
 pushInt()
