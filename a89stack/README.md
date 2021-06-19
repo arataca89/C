@@ -11,7 +11,7 @@ Este arquivo executa o primeiro teste da bilbioteca. São testadas as funções:
 - destroy()
 
 
-Observe que ao usar a função push():
+Observe que ao usar a função <tt>push()</tt>:
 
 <pre>
 void push(Tipo n, Stack pilha)
