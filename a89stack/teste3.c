@@ -7,7 +7,6 @@ arataca89@gmail.com
 #include "a89stack.h"
 
 int main(){
-
     Stack pilhaInt = create(3);
     int n1, n2, n3;
     n1 = 1;
