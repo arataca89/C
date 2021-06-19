@@ -1,4 +1,6 @@
 # Linguagem C
+## 20210619
+- a89stack.h - Biblioteca que auxilia na criação de pilhas int, double e char.
 ## 20210612
 - recursividade/fibonacci.c - Exemplo de funções interativa e recursiva que calcula a sequência de Fibonacci.
 ## 20210611
