@@ -75,6 +75,7 @@ Este é o teste de overflow. Tenta-se inserir itens além da capacidade da pilha
 
 ## teste5.c
 Este é o teste da função <tt>top()</tt>.
+## Saída do arquivo teste5.c após compilado em ambiente Windows 10.
 <img src="https://github.com/arataca89/C/blob/main/a89stack/teste5.PNG">
 
 <hr>
