@@ -47,7 +47,7 @@ pushChar()
 
 Observe que conforme o tipo a ser processado a função correta deve ser chamada. Lembrando que ao criar uma pilha de inteiros não devemos inserir um dado de outro tipo. Isto causará resultados inesperados.
 
-## Saída do arquivo teste2.c após compilado em ambiente Windows 10
+## Saída do arquivo teste2.c após compilado em ambiente Windows 10.
 
 <img src="https://github.com/arataca89/C/blob/main/a89stack/teste2.PNG">
 
@@ -57,8 +57,19 @@ Observe que a saída é idêntica a do arquivo teste1.c. Assim conclui-se que po
 
 ## teste3.c
 Este é o teste de underflow. Após retirar todos os elementos da pilha tentamos tirar mais.
-## Saída do arquivo teste3.c após compilado em ambiente Windows 10
+
+## Saída do arquivo teste3.c após compilado em ambiente Windows 10.
 
 <img src="https://github.com/arataca89/C/blob/main/a89stack/teste3.PNG">
 
+<hr>
+
+## teste4.c
+Este é o teste de overflow. Tenta-se inserir itens além da capacidade da pilha criada.
+
+## Saída do arquivo teste4.c após compilado em ambiente Windows 10.
+
+<img src="https://github.com/arataca89/C/blob/main/a89stack/teste4.PNG">
+
+<hr>
 
