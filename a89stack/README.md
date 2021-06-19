@@ -32,3 +32,8 @@ Isto é usado neste teste. Ajusta-se o membro da união <tt>Tipo</tt> conforme o
 ## Saída do arquivo teste1.c após compilado em ambiente Windows 10.
 
 <img src="https://github.com/arataca89/C/blob/main/a89stack/teste1.PNG">
+
+<hr>
+
+## teste2.c
+
