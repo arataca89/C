@@ -1,14 +1,6 @@
 /* 
 Teste 2  da biblioteca a89stack.h
 
-Além das funções testadas em teste1.c aqui testa-se também as
-funções:
-
-pushInt()
-pushFloat()
-pushChar()
-
-
 arataca89@gmail.com
 20210619
 */
