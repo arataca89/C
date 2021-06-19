@@ -1,4 +1,17 @@
 # a89stack.h
+Esta biblioteca possui estruturas e funções que auxiliam a implementar pilhas.
+
+A biblioteca possui a estrutura <tt>tipo</tt> que define se a pilha será int, float ou char
+
+<pre>
+typedef union tipo{
+    int i;
+    double f;
+    char c;
+}Tipo;
+</pre>
+
+<hr>
 
 ## teste1.c
 
