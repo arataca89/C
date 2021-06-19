@@ -22,8 +22,8 @@ typedef struct stack{
 </pre>
 
 Funções da biblioteca:
-<p>    
-    <tt>Stack create(int n)</tt> - Cria uma pilha com capacidade de <tt>n</tt> itens.    
+<p><tt>Stack create(int n)</tt> - Cria uma pilha com capacidade de <tt>n</tt> itens.   
+<p><tt>int isVoid(Stack pilha)</tt> - Verifica se a pilha está vazia.    
 <hr>
 
 ## teste1.c
