@@ -1,4 +1,6 @@
 # Linguagem C
+## 20210629
+- args_variavies.c - Exemplo de função que recebe número variável de argumentos.
 ## 20210619
 - a89stack/a89stack.h - Biblioteca C que auxilia na criação de pilhas int, double e char.
 ## 20210612
