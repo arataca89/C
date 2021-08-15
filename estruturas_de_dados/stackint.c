@@ -1,4 +1,12 @@
-/*
+/********************************************************************
+Nome: stackint.c
+Descrição: Implementação de uma pilha estática de inteiros
+Data: 20210510
+
+arataca89@gmail.com
+Aulas particulaes de programação em C/C++ 
+
+
 Implementação de uma pilha estática de inteiros
 
 1. Definição do tamanho da pilha, pois trata-se de uma pilha
@@ -12,8 +20,6 @@ Implementação de uma pilha estática de inteiros
 7. Função returnTop() que retorna o item no topo da pilha;
 8. Função main() para testar as funcionalidades.
 
-arataca89@gmail.com
-20210510
 
 Referências:
 TANENBAUM;LANGSAM;AUGENSTEIN. Estruturas de Dados Usando C.
@@ -24,7 +30,9 @@ São Paulo: Makron Books, 1996.
 
 DEITEL;DEITEL. C Como Programar. 6a Edição.
 São Paulo: Pearson Prentice Hall, 2011.
-*/
+
+********************************************************************/
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -125,4 +133,7 @@ void exibir(Stack *s){
     }
     printf("TOPO\n");
 }
-/* fim de stackint.c */
+/********************************************************************
+arataca89@gmail.com
+Aulas particulaes de programação em C/C++ 
+********************************************************************/
