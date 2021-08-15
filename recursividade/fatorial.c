@@ -1,4 +1,12 @@
-/*
+/********************************************************************
+Nome: fatorial.c
+Descrição: Exemplo de função fatorial interativa e recursiva.
+Data: 20210609
+
+arataca89@gmail.com
+Aulas particulaes de programação em C/C++ 
+
+
 Fatorial de n é definido como o produto de todos os inteiros entre n
 e 1. O fatorial de zero é definido como 1.
 
@@ -39,9 +47,8 @@ n! = n * (n - 1)!
 Referências:
 TANENBAUM, A. M.;LANGSAM, Y.;AUGENSTEIN, M. J. Estruturas de Dados Usando C. São Paulo: Pearson Makron Books, 1995.
 
-arataca89@gmail.com
-20210609
-*/
+********************************************************************/
+
 #include <stdio.h>
 
 /* função fatorial interativa */
@@ -69,3 +76,7 @@ int main(){
     printf("recFatorial: %d\n", recFatorial(5));
     return 0;
 }
+/********************************************************************
+arataca89@gmail.com
+Aulas particulaes de programação em C/C++ 
+********************************************************************/
