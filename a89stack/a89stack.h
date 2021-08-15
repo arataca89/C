@@ -1,7 +1,7 @@
 /********************************************************************
 Nome: a89stack.h
 Descrição: Possui estruturas e funções que auxiliam a implementar pilhas.
-Data: 
+Data: 20210619
 
 arataca89@gmail.com
 Aulas particulaes de programação em C/C++ 
