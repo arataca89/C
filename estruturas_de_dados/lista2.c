@@ -1,5 +1,14 @@
-/*
+/********************************************************************
+Nome: lista2.c
+Descrição: Exemplo de lista encadeada simples.
+Data: 20210611
+
+arataca89@gmail.com
+Aulas particulaes de programação em C/C++ 
+
+
 Exemplo de lista encadeada simples com menu para manipular a lista.
+
 Opções de menu:
     - exibir lista;
     - inserção no início;
@@ -15,10 +24,8 @@ JAMSA, K.;KLANDER, L. Programando em C/C++ "A Bíblia". São Paulo: Makron Books
 SCHILDT, H. C Completo e Total. 3a Edição. São Paulo: Makron Books, 1996.
 DEITEL, P.;DEITEL, H. C Como Programar. 6a Edição. São Paulo: Pearson Prentice Hall, 2011.
 TANENBAUM, A. M.;LANGSAM, Y.;AUGENSTEIN, M. J. Estruturas de Dados Usando C. São Paulo: Pearson Makron Books, 1995.
+********************************************************************/
 
-arataca89@gmail.com
-20210611
-*/
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -235,3 +242,7 @@ void freeLista(Lista lista){
         noh = noh->proximo;
     }
 }
+/********************************************************************
+arataca89@gmail.com
+Aulas particulaes de programação em C/C++ 
+********************************************************************/
