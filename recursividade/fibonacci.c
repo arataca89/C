@@ -1,4 +1,13 @@
-/*
+/********************************************************************
+Nome: fibonacci.c
+Descrição: Implementa versões interativa e recursiva para escrever
+           a sequência de Fibonacci.
+Data: 20210612
+
+arataca89@gmail.com
+Aulas particulaes de programação em C/C++ 
+
+
 A sequência de Fibonacci é uma sequência de números inteiros que
 normalmente começa com 0 e 1 e onde cada número é o resultado da
 soma dos dois números anteriores.
@@ -15,10 +24,8 @@ sendo: F(0) = 1 e F(1) = 1
 Referências:
 TANENBAUM, A. M.;LANGSAM, Y.;AUGENSTEIN, M. J. Estruturas de Dados Usando C. São Paulo: Pearson Makron Books, 1995.
 https://pt.wikipedia.org/wiki/Sequência_de_Fibonacci
+********************************************************************/
 
-arataca89@gmail.com
-20210612
-*/
 #include <stdio.h>
 
 void intFibonacci(int i){
@@ -65,7 +72,7 @@ int main(){
     return 0;
 }
 
-/*
+/********************************************************************
 
 SAIDA:
 
@@ -94,4 +101,7 @@ recFibonacci(17): 1597
 recFibonacci(18): 2584
 recFibonacci(19): 4181
 
-*/
+
+arataca89@gmail.com
+Aulas particulaes de programação em C/C++ 
+********************************************************************/
