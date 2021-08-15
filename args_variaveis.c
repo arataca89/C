@@ -1,9 +1,12 @@
-/* 
-Função que recebe número variável de argumentos
+/********************************************************************
+Nome: args_variaveis.c
+Descrição: Função que recebe número variável de argumentos
+Data:
 
-arataca89@gmail.com - Aulas C/C++, Go, Python
+arataca89@gmail.com
+Aulas particulaes de programação em C/C++ 
+********************************************************************/
 
-*/ 
 #include <stdio.h>
 #include <stdarg.h> 
 #include <math.h> // isnan
@@ -32,3 +35,7 @@ double maior(double n, ... ){
     va_end(nrs);
     return maior;
 }
+/********************************************************************
+arataca89@gmail.com
+Aulas particulaes de programação em C/C++ 
+********************************************************************/
