@@ -1,7 +1,11 @@
-/*
-malloc()
+/********************************************************************
+Nome: malloc.c
+Descrição: Alocação dinãmica de memória usando malloc() e free()
+Data: 20210526
+
 arataca89@gmail.com
-20210526
+Aulas particulaes de programação em C/C++ 
+
 
 A função malloc() é usada para alocar memória dinamicamente.
 Ela pertence ao arquivo de cabeçalho stdlib.h
@@ -27,7 +31,8 @@ https://www.geeksforgeeks.org/dynamic-memory-allocation-in-c-using-malloc-calloc
 https://www.tutorialspoint.com/c_standard_library/c_function_malloc.htm
 http://www.cplusplus.com/reference/cstdlib/malloc/
 
-*/
+********************************************************************/
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -65,10 +70,14 @@ int main(){
 
     return 0;
 }
-/*
+/********************************************************************
+
 SAÍDA:
 
 Memoria alocada com sucesso.
 1, 2, 3, 4, 5,
 Memoria liberada
-*/
+
+arataca89@gmail.com
+Aulas particulaes de programação em C/C++ 
+********************************************************************/
