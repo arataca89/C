@@ -1,6 +1,6 @@
 /********************************************************************
 Nome: malloc.c
-Descrição: Alocação dinãmica de memória usando malloc() e free()
+Descrição: Alocação dinâmica de memória usando malloc() e free()
 Data: 20210526
 
 arataca89@gmail.com
