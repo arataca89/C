@@ -8,8 +8,7 @@
 - <a href="https://github.com/arataca89/C/blob/main/recursividade/fatorial.c">recursividade/fatorial.c</a> - Exemplo de função fatorial interativa e recursiva.
 - <a href="https://github.com/arataca89/C/blob/main/estruturas_de_dados/lista1.c">estrutura_de_dados/lista1.c</a> - Exemplo de lista encadeada simples com inserção no início.
 - <a href="https://github.com/arataca89/C/blob/main/malloc.c">malloc.c</a> - alocação dinâmica de memória, usando <tt>malloc()</tt> e <tt>free()</tt>.
-## 20210511
-- estrutura_de_dados/stackint.c - Implementação de uma pilha estática de inteiros.
+- <a href="https://github.com/arataca89/C/blob/main/estruturas_de_dados/stackint.c">estrutura_de_dados/stackint.c</a> - Implementação de uma pilha estática de inteiros.
 ## 20210507
 - estrutura_de_dados/typedef.c - Demonstra o uso da palavra-chave typedef.
 - estrutura_de_dados/struct2.c - Como passar membros de estruturas ou a própria estrutura para funções.
