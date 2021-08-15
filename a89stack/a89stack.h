@@ -1,17 +1,19 @@
-/*
-a89stack.h
-Posui estruturas e funções que auxiliam a implementar pilhas.
+/********************************************************************
+Nome: a89stack.h
+Descrição: Possui estruturas e funções que auxiliam a implementar pilhas.
+Data: 
+
+arataca89@gmail.com
+Aulas particulaes de programação em C/C++ 
 
 Referências:
 PEREIRA, S. L. Estrutura de Dados em C. 1a Edição. São Paulo: Saraiva.
 FEOFILOFF, P. Algoritmos em Linguagem C. Rio de Janiero: Elsevier.
-DEITEL, P.;DEITEL, H. C Como Programar. 6a Edição. São Paulo: Pearson Prentice Hall, 2011.
+DEITEL, P.;DEITEL, H. C Como Programar. 6a Edição. ão Paulo: Pearson Prentice Hall, 2011.
 SCHILDT, H. C Completo e Total. 3a Edição. São Paulo: Makron Books, 1996.
 TANENBAUM, A. M.;LANGSAM, Y.;AUGENSTEIN, M. J. Estruturas de Dados Usando C. São Paulo: Pearson Makron Books, 1995.
+********************************************************************/
 
-arataca89@gmail.com
-20210619
-*/
 #ifndef A89STACK_H
 #define A89STACK_H
 
@@ -128,4 +130,7 @@ void destroy(Stack pilha){
 }
 
 #endif
-// fim de a89stack.h
+/********************************************************************
+arataca89@gmail.com
+Aulas particulaes de programação em C/C++ 
+********************************************************************/
