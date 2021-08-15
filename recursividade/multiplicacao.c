@@ -1,4 +1,13 @@
-/*
+/********************************************************************
+Nome: multiplicacao.c
+Descrição: Versões interativa e recursiva da multiplicação de dois 
+           números.
+Data: 20210610
+
+arataca89@gmail.com
+Aulas particulaes de programação em C/C++ 
+
+
 A multiplicação de um número por outro pode ser definida
 das seguintes formas:
 
@@ -19,9 +28,8 @@ a * b = a * (b - 1) + a
 Referências:
 TANENBAUM, A. M.;LANGSAM, Y.;AUGENSTEIN, M. J. Estruturas de Dados Usando C. São Paulo: Pearson Makron Books, 1995.
 
-arataca89@gmail.com
-20210610
-*/
+********************************************************************/
+
 #include <stdio.h>
 
 /* Multiplicação de dois números versão interativa */
@@ -55,3 +63,7 @@ int main(){
     printf("%d\n",recMultiplica(3,4));
     return 0;
 }
+/********************************************************************
+arataca89@gmail.com
+Aulas particulaes de programação em C/C++ 
+********************************************************************/
