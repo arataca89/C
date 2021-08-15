@@ -1,4 +1,5 @@
 # Linguagem C
+- <a href="https://github.com/arataca89/C/blob/main/array_insert_in_order.c">array_insert_in_order</a> - Demonstra como inserir elementos num array de inteiros em ordem crescente.
 ## 20210629
 - args_variaveis.c - Exemplo de função que recebe número variável de argumentos.
 ## 20210619
