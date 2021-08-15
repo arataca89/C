@@ -10,7 +10,7 @@
 - <a href="https://github.com/arataca89/C/blob/main/malloc.c">malloc.c</a> - alocação dinâmica de memória, usando <tt>malloc()</tt> e <tt>free()</tt>.
 - <a href="https://github.com/arataca89/C/blob/main/estruturas_de_dados/stackint.c">estrutura_de_dados/stackint.c</a> - Implementação de uma pilha estática de inteiros.
 ## 20210507
-- estrutura_de_dados/typedef.c - Demonstra o uso da palavra-chave typedef.
+- <a href="https://github.com/arataca89/C/blob/main/estruturas_de_dados/typedef.c">estrutura_de_dados/typedef.c</a> - Demonstra o uso da palavra-chave typedef.
 - estrutura_de_dados/struct2.c - Como passar membros de estruturas ou a própria estrutura para funções.
 ## 20210506
 - estruturas_de_dados/struct1.c - Demonstra a criação de tipos de dados definidos pelo usuário usando struct.
