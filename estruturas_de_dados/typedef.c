@@ -1,4 +1,12 @@
-/*
+/********************************************************************
+Nome: typedef.c
+Descrição: Demonstra o uso da palavra-chave typedef
+Data: 20210507
+
+arataca89@gmail.com
+Aulas particulaes de programação em C/C++ 
+
+
 A palavra-chave typedef cria um alias (um apelido) para um tipo de
 dados, seja ele um tipo primitivo ou uma estrutura criada pelo
 usuário.
@@ -21,9 +29,8 @@ Referências:
 Schildt(1997)
 Deitel e Deitel(2011)
 
-arataca89@gmail.com
-20210507
-*/
+********************************************************************/
+
 #include <stdio.h>
 
 typedef int Inteiro; // Define o alias Inteiro para o tipo int.
@@ -49,3 +56,7 @@ int main(){
 
     return 0;
 }
+/********************************************************************
+arataca89@gmail.com
+Aulas particulaes de programação em C/C++ 
+********************************************************************/
