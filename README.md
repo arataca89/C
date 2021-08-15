@@ -4,8 +4,7 @@
 - <a href="https://github.com/arataca89/C/blob/main/a89stack/a89stack.h">a89stack/a89stack.h</a> - Biblioteca C que auxilia na criação de pilhas int, double e char.
 - <a href="https://github.com/arataca89/C/blob/main/recursividade/fibonacci.c">recursividade/fibonacci.c</a> - Exemplo de funções interativa e recursiva que calcula a sequência de Fibonacci.
 - <a href="https://github.com/arataca89/C/blob/main/estruturas_de_dados/lista2.c">estrutura_de_dados/lista2.c</a> - Exemplo de lista encadeada simples com inserção e remoção de itens. Para ver funcionando <a href="https://youtu.be/W6YaSkA2ecI">clique aqui</a>
-## 20210610
-- recursividade/multiplicacao.c - Exemplo de função interativa e recursiva que executa a multiplicação de dois inteiros.
+- <a href="https://github.com/arataca89/C/blob/main/recursividade/multiplicacao.c">recursividade/multiplicacao.c</a> - Exemplo de função interativa e recursiva que executa a multiplicação de dois inteiros.
 ## 20210609
 - recursividade/fatorial.c - Exemplo de função fatorial interativa e recursiva.
 ## 20210606
