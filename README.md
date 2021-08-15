@@ -7,7 +7,7 @@
 - <a href="https://github.com/arataca89/C/blob/main/recursividade/multiplicacao.c">recursividade/multiplicacao.c</a> - Exemplo de função interativa e recursiva que executa a multiplicação de dois inteiros.
 - <a href="https://github.com/arataca89/C/blob/main/recursividade/fatorial.c">recursividade/fatorial.c</a> - Exemplo de função fatorial interativa e recursiva.
 - <a href="https://github.com/arataca89/C/blob/main/estruturas_de_dados/lista1.c">estrutura_de_dados/lista1.c</a> - Exemplo de lista encadeada simples com inserção no início.
-- <a href="https://github.com/arataca89/C/blob/main/malloc.c">malloc.c</a> - alocação dinâmica de memória, usando malloc() e free().
+- <a href="https://github.com/arataca89/C/blob/main/malloc.c">malloc.c</a> - alocação dinâmica de memória, usando <tt>malloc()</tt> e <tt>free()</tt>.
 ## 20210511
 - estrutura_de_dados/stackint.c - Implementação de uma pilha estática de inteiros.
 ## 20210507
