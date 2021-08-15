@@ -1,9 +1,14 @@
-/*
-Demonstra a criação de tipos de dados definidos pelo usuário usando struct.
+/********************************************************************
+Nome: struct1.c
+Descrição: Demonstra a criação de tipos de dados definidos pelo
+           usuário usando struct.
+Data: 20210506
 
 arataca89@gmail.com
-20210506
-*/
+Aulas particulaes de programação em C/C++ 
+
+********************************************************************/
+
 #include <stdio.h>
 
 // Cria o tipo de dados livro.
@@ -45,7 +50,8 @@ int main(){
 
     return 0;
 }
-/*
+/********************************************************************
+
 SAÍDA:
 
 {C a Linguagem de Programação, 279, 185.50}
@@ -53,4 +59,7 @@ SAÍDA:
 {C Completo e Total, 827, 311.99}
 {C Completo e Total, 827, 311.99}
 
-*/
+
+arataca89@gmail.com
+Aulas particulaes de programação em C/C++ 
+********************************************************************/
