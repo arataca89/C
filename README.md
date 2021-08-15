@@ -5,8 +5,7 @@
 - <a href="https://github.com/arataca89/C/blob/main/recursividade/fibonacci.c">recursividade/fibonacci.c</a> - Exemplo de funções interativa e recursiva que calcula a sequência de Fibonacci.
 - <a href="https://github.com/arataca89/C/blob/main/estruturas_de_dados/lista2.c">estrutura_de_dados/lista2.c</a> - Exemplo de lista encadeada simples com inserção e remoção de itens. Para ver funcionando <a href="https://youtu.be/W6YaSkA2ecI">clique aqui</a>
 - <a href="https://github.com/arataca89/C/blob/main/recursividade/multiplicacao.c">recursividade/multiplicacao.c</a> - Exemplo de função interativa e recursiva que executa a multiplicação de dois inteiros.
-## 20210609
-- recursividade/fatorial.c - Exemplo de função fatorial interativa e recursiva.
+- <a href="https://github.com/arataca89/C/blob/main/recursividade/fatorial.c">recursividade/fatorial.c</a> - Exemplo de função fatorial interativa e recursiva.
 ## 20210606
 - estrutura_de_dados/lista1.c - Exemplo de lista encadeada simples com inserção no início.
 ## 20210526
