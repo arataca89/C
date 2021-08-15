@@ -1,4 +1,13 @@
-/*
+/********************************************************************
+Nome: struct2.c
+Descrição: Como passar membros de estruturas ou a própria estrutura
+           para funções.
+Data: 20210507
+
+arataca89@gmail.com
+Aulas particulaes de programação em C/C++ 
+
+
 Como passar membros de estruturas ou a própria estrutura
 para funções.
 
@@ -6,9 +15,8 @@ Referências:
 Schildt(1997)
 Deitel e Deitel(2011)
 
-arataca89@gmail.com
-20210507
-*/
+********************************************************************/
+
 #include <stdio.h>
 
 // Aqui a estrutura foi definida e criado o alias Produto para ela.
@@ -77,7 +85,8 @@ int main(){
     return 0;
 
 }
-/*
+/********************************************************************
+
 SAIDA:
 
 Monitor	20	1300.50
@@ -89,4 +98,6 @@ Agora a quantidade e 15
 Passando a estrutura por referencia e alterando os membros:
 Monitor LCD	50	2500.70
 
-*/
+arataca89@gmail.com
+Aulas particulaes de programação em C/C++ 
+********************************************************************/
