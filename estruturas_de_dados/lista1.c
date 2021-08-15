@@ -1,8 +1,11 @@
-/*
-Exemplo de lista encadeada simples com inserção no início.
+/********************************************************************
+Nome: lista1.c
+Descrição: Exemplo de lista encadeada simples com inserção no início.
+Data: 20210606
 
 arataca89@gmail.com
-20210606
+Aulas particulaes de programação em C/C++ 
+
 
 Referências:
 JAMSA, K.;KLANDER, L. Programando em C/C++ "A Bíblia". São Paulo: Makron Books, 1999.
@@ -10,7 +13,9 @@ SCHILDT, H. C Completo e Total. 3a Edição. São Paulo: Makron Books, 1996.
 DEITEL, P.;DEITEL, H. C Como Programar. 6a Edição. São Paulo: Pearson Prentice Hall, 2011.
 TANENBAUM, A. M.;LANGSAM, Y.;AUGENSTEIN, M. J. Estruturas de Dados Usando C. São Paulo: Pearson Makron Books, 1995.
 https://youtu.be/lgPgknuUK-s
-*/
+
+********************************************************************/
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -116,7 +121,7 @@ void freeLista(Lista lista){
     free(noh);
 }
 
-/*
+/********************************************************************
 
 SAIDA:
 
@@ -154,4 +159,7 @@ endereco: 00000000007C13B0
 Valor   : 13
 proximo : 0000000000000000
 
-*/
+
+arataca89@gmail.com
+Aulas particulaes de programação em C/C++ 
+********************************************************************/
