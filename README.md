@@ -1,4 +1,5 @@
 # Exercícios de programação C
+- <a href="https://github.com/arataca89/C/blob/main/scanf_int_check.c">scanf_int_check.c</a> - Demonstra uma maneira de verificar se o usuario entrou com um inteiro.
 - <a href="https://github.com/arataca89/C/blob/main/array_insert_in_order.c">array_insert_in_order</a> - Demonstra como inserir elementos num array de inteiros em ordem crescente.
 - <a href="https://github.com/arataca89/C/blob/main/args_variaveis.c">args_variaveis.c</a> - Exemplo de função que recebe número variável de argumentos.
 - <a href="https://github.com/arataca89/C/blob/main/a89stack/a89stack.h">a89stack/a89stack.h</a> - Biblioteca C que auxilia na criação de pilhas int, double e char.
