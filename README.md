@@ -1,4 +1,5 @@
 # arataca89  - programação C
+- <a href="https://github.com/arataca89/C/blob/main/a89template.c">a89template.c</a> - Cria arquivos template (<tt>.c</tt> e <tt>.h</tt>) para programacao em C.
 - <a href="https://github.com/arataca89/C/blob/main/scanf_int_check.c">scanf_int_check.c</a> - Demonstra uma maneira de verificar se o usuario entrou com um inteiro.
 - <a href="https://github.com/arataca89/C/blob/main/array_insert_in_order.c">array_insert_in_order.c</a> - Demonstra como inserir elementos num array de inteiros em ordem crescente.
 - <a href="https://github.com/arataca89/C/blob/main/args_variaveis.c">args_variaveis.c</a> - Exemplo de função que recebe número variável de argumentos.
