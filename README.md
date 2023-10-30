@@ -15,3 +15,7 @@
 - <a href="https://github.com/arataca89/C/blob/main/estruturas_de_dados/struct2.c">estrutura_de_dados/struct2.c</a> - Como passar membros de estruturas ou a própria estrutura para funções.
 - <a href="https://github.com/arataca89/C/blob/main/estruturas_de_dados/struct1.c">estruturas_de_dados/struct1.c</a> - Demonstra a criação de tipos de dados definidos pelo usuário usando struct.
 
+----------
+arataca89@gmail.com
+
+Aulas particulares de programação C/C++.
