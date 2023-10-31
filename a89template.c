@@ -3,11 +3,9 @@ Arquivo  : a89template.c
 Descricao: Cria arquivos template para programacao em C.
 Data	 : 2023-10-30 15:21:00
 
-Uso: a89template OPTION FILENAME
+Ultima atualizacao: 2023-10-31 07:00:00
 
-OPTION:
-	c 		Cria template para arquivo .c
-	h		Cria template para arquivo .h
+Uso: a89template FILENAME
 
 FILENAME deve ter extensao .c ou .h
 
@@ -116,10 +114,8 @@ void write_template_c(FILE* stream, char* filename){
 
 // Exibe mensagem de uso da tela e encerra o programa.
 void uso(char* str){
-	printf("Uso: %s OPTION FILENAME\n\n",str);
-	printf("OPTION:\n");
-	printf("\tc\tCria template para arquivo .c; FILENAME deve ter extensao .c\n");
-	printf("\th\tCria template para arquivo .h; FILENAME deve ter extensao .h\n\n");
+	printf("Uso: %s FILENAME\n\n",str);
+	printf("FILENAME deve ter extensao .c ou .h\n");
 	exit(EXIT_FAILURE);
 }
 
@@ -142,29 +138,18 @@ void writefile(char* filename, char o){
 }
 
 int main(int argc,char* argv[]){
-	if(argc != 3){
+	if(argc != 2){
 		uso(argv[0]);
-	}	
-	if(!strcmp(argv[1],"c")){
-		if(check_extension(argv[2],'c')){
-			writefile(argv[2],'c');
-		}
-		else{
-			printf("Extensao de arquivo invalida!\n");
-			uso(argv[0]);
-		}
 	}
-	else if(!strcmp(argv[1],"h")){
-		if(check_extension(argv[2],'h')){
-			writefile(argv[2],'h');
-		}
-		else{
-			printf("Extensao de arquivo invalida!\n");
-			uso(argv[0]);
-		}
+
+	if(check_extension(argv[1],'c')){
+			writefile(argv[1],'c');
+	}
+	else if(check_extension(argv[1],'h')){
+			writefile(argv[1],'h');
 	}
 	else{
-		printf("Opcao invalida!\n");
+		printf("Extensao de arquivo invalida!\n");
 		uso(argv[0]);
 	}
 
