@@ -112,7 +112,7 @@ void write_template_c(FILE* stream, char* filename){
 	fprintf(stream,"#include \"%s\"\n",headerfile);
 	fprintf(stream,"\n\n");
 	fprintf(stream,"void check(int n){\n");
-	fprintf(stream,"    printf(\"\\n>>> checkpoint %c%c <<<\\n\");\n",'%','d');
+	fprintf(stream,"    printf(\"\\n>>> checkpoint %c%c <<<\\n\",n);\n",'%','d');
 	fprintf(stream,"}\n");
 	fprintf(stream,"\n");
 	print_footer(stream);
