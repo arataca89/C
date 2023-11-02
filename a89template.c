@@ -3,7 +3,7 @@ Arquivo  : a89template.c
 Descricao: Cria arquivos template para programacao em C.
 Data	 : 2023-10-30 15:21:00
 
-Ultima atualizacao: 2023-10-31 07:00:00
+Ultima atualizacao: 2023-11-02 17:30:00
 
 Uso: a89template FILENAME
 
@@ -85,10 +85,13 @@ void write_template_h(FILE* stream, char* filename){
 	char label[64];
 	str_to_upper(label,filename);
 	label[strlen(label)-1] = 'H';
+	label[strlen(label)-2] = '_';
 	print_header(stream,filename);
 	fprintf(stream,"#ifndef %s\n",label);
-	fprintf(stream,"#define %s\n\n",label);
-	fprintf(stream,"\n\n\n");
+	fprintf(stream,"#define %s\n",label);
+	fprintf(stream,"\n");
+	fprintf(stream,"void check(int n);\n");
+	fprintf(stream,"\n");
 	fprintf(stream,"#endif\n");
 	print_footer(stream);
 }
@@ -107,8 +110,11 @@ void write_template_c(FILE* stream, char* filename){
 	strcpy(headerfile,filename);
 	headerfile[strlen(headerfile)-1] = 'h';
 	fprintf(stream,"#include \"%s\"\n",headerfile);
-
-	fprintf(stream,"\n\n\n");
+	fprintf(stream,"\n\n");
+	fprintf(stream,"void check(int n){\n");
+	fprintf(stream,"    printf(\"\\n>>> checkpoint %c%c <<<\\n\");\n",'%','d');
+	fprintf(stream,"}\n");
+	fprintf(stream,"\n");
 	print_footer(stream);
 }
 
