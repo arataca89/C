@@ -3,7 +3,7 @@ Arquivo  : a89template.c
 Descricao: Cria arquivos template para programacao em C.
 Data	 : 2023-10-30 15:21:00
 
-Ultima atualizacao: 2023-11-02 17:30:00
+Ultima atualizacao: 2023-11-19 09:15:18
 
 Uso: a89template FILENAME
 
@@ -73,11 +73,12 @@ void print_footer(FILE* stream){
 
 // Converte char* src para maiusculas e armazena em char* dst.
 void str_to_upper(char* dst, char* src){
-	while(*src){
-		*dst = toupper(*src);
-		dst++;
-		src++;
+	int size = strlen(src);
+	int i;
+	for(i=0; i<size; i++){
+		dst[i] = toupper(src[i]);
 	}
+	dst[i] = '\0';
 }
 
 // Escreve o template de header file.
