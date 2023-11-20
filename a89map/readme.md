@@ -17,3 +17,25 @@ typedef struct{
 	Elemento* elementos;
 }Map;
 </pre>
+
+### Interface
+<pre>
+Map* map_create(int n);
+void map_delete(Map* m);
+void map_print(const Map* m); // {KEY:VALUE}
+void map_push(Map* m, int k, const char* v); 
+Bool map_keycheck(const Map* m, int k);
+
+Map* map_copy(const Map* src);
+
+Bool map_empty(const Map* m);
+Bool map_full(const Map* m);
+
+int map_size(const Map* m);
+int map_cap(const Map* m);
+
+void map_report(const Map* m);
+void check(int n);
+</pre>
+
+
