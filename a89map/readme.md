@@ -1,5 +1,5 @@
 # a89map
 
-A lib a89map implementa um contêiner do tipo [chave:valor] onde a chave é um <tt>int</tt> e o valor é uma string com 70 caracteres. Essa lib foi escrita para ser utilizada em um projeto de interpretador BASIC. 
+A lib a89map implementa um contêiner do tipo `[chave:valor]` onde a chave é um `int<` e o valor é uma string com 70 caracteres. Essa lib foi escrita para ser utilizada em um projeto de interpretador BASIC. 
 
 
