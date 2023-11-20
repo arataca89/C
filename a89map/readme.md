@@ -19,6 +19,10 @@ typedef struct{
 </pre>
 
 ### Interface
+    | First Header  | Second Header |
+    | ------------- | ------------- |
+    | Content Cell  | Content Cell  |
+    | Content Cell  | Content Cell  |
 <pre>
 Map* map_create(int n);
 void map_delete(Map* m);
