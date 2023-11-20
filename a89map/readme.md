@@ -24,7 +24,7 @@ typedef struct{
 |------------------------|---------------|
 | Map* map_create(int n) | cria um `Map` |
 | void map_delete(Map* m) | deleta um `Map` |
-| void map_print(const Map* m) | Imprimie todos os elementos do `Map` no formato `{KEY:VALUE}` |
+| void map_print(const Map* m) | Imprime todos os elementos do `Map` no formato `{KEY:VALUE}` |
 | void map_push(Map* m, int k, const char* v) | Insere um elemento no `Map` em sua posição correta |
 | Bool map_keycheck(const Map* m, int k) | Verifica se já existe um elemento com essa chave no `Map` |
 | Map* map_copy(const Map* src) | Copia um `Map` |
@@ -38,7 +38,7 @@ typedef struct{
 ---
 arataca89@gmail.com
 
-Aulas particulares de programação C/C++
+Aulas particulares de programação C/C++.
 
 
 
