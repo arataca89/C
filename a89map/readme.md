@@ -34,7 +34,7 @@ typedef struct{
 | int map_cap(const Map* m) | Retorna a capacidade do `Map` |
 | void map_report(const Map* m) | Imprime na tela um relatório do `Map` |
 | void check(int n) | Função auxiliar utilizada na depuração |
-
+<br><br>
 ---
 arataca89@gmail.com
 
