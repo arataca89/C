@@ -24,7 +24,7 @@ typedef struct{
 |------------------------|---------------|
 | Map* map_create(int n) | cria um `Map` |
 | void map_delete(Map* m) | deleta um `Map` |
-| void map_print(const Map* m) | Imprime todos os elementos do `Map` no formato `{KEY:VALUE}` |
+| void map_print(const Map* m) | Imprime todos os elementos do `Map` no formato `KEY VALUE` |
 | void map_insert(Map* m, int k, const char* v) | Insere um elemento no `Map` em sua posição correta |
 | Bool map_keycheck(const Map* m, int k) | Verifica se já existe um elemento com essa chave no `Map` |
 | Map* map_copy(const Map* src) | Copia um `Map` |
@@ -35,7 +35,7 @@ typedef struct{
 | void map_report(const Map* m) | Imprime na tela um relatório do `Map` |
 | char* map_at(const Map* m, int k) | Retorna a string cuja chave no `Map` é `k` |
 | void check(int n) | Função auxiliar utilizada na depuração |
-| void element_print(const Map* m, int k) | Imprime elemento cuja chave é `k` |
+| void element_print(const Map* m, int k) | Imprime elemento cuja chave é `k` no formato `KEY VALUE` |
 
 <br><br>
 ---
