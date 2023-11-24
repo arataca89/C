@@ -33,8 +33,9 @@ typedef struct{
 | int map_size(const Map* m) | Retorna quantos elementos existem no `Map` |
 | int map_cap(const Map* m) | Retorna a capacidade do `Map` |
 | void map_report(const Map* m) | Imprime na tela um relatório do `Map` |
-| void check(int n) | Função auxiliar utilizada na depuração |
 | char* map_at(const Map* m, int k) | Retorna a string cuja chave no `Map` é `k` |
+| void check(int n) | Função auxiliar utilizada na depuração |
+| void element_print(const Map* m, int k) | Imprime elemento cuja chave é `k` |
 
 <br><br>
 ---
